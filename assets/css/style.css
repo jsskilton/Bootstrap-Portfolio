@@ -44,6 +44,7 @@ p {
   position: fixed;
   width: 100%;
   z-index: 10;
+  font-size: 14pt;
 
 }
 
@@ -51,6 +52,7 @@ p {
   color:var(--nav-color);
   background-color: var(--box-color);
   padding: 1%;
+  font-size: 18pt;
 }
 
 .navbar-nav {
@@ -102,6 +104,17 @@ p {
   float: right;
 }
 
+.btn {
+  color:white;
+  background-color: var(--box-outline-color);
+  border-color: var(--main-text-color);
+}
+
+.btn:hover {
+  background-color:rgb(66, 109, 117);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
 /* Work section ============= */
 
 .container {
@@ -119,6 +132,7 @@ p {
   width: 100%; 
   height: auto; 
   object-fit: cover; 
+  margin-left: 10%;
 }
 
 .image-container {
@@ -138,7 +152,7 @@ p {
 }
 
 .card-body h1 {
-  font-size: 24pt;
+  font-size: 20pt;
 }
 
 /* Skills section */
@@ -146,9 +160,14 @@ p {
   color: var(--main-text-color);
 }
 
+h3 {
+  font-size: 16pt;
+}
+
 /* Contact Me section */
 .contact-me-content {
   margin-left:10%;
+  font-size: 14pt;
 }
 
 .contact-me-content ul {
