@@ -20,7 +20,7 @@ Follow the URL link provided: https://jsskilton.github.io/Bootstrap-Portfolio/
 
 Navigation bar at the top links to the three sections: About Me, Work, Skills, Contact Me
 
-![alt text](assets/images/screenshot2.jpg)
+![screenshot of webpage](assets/images/screenshot2.JPG)
 
 ## Credits
 
